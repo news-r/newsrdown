@@ -74,3 +74,62 @@ code, pre {
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #2f2f2f;
 }
+
+.by{
+  color: #247BA0!important;
+}
+
+.by > a {
+  color: #f9f7f1;
+}
+
+.by > a:hover {
+  color: #f9f7f1;
+}
+
+.by > a:visited {
+  color: #f9f7f1;
+}
+
+/* LINKS */
+a{
+  text-decoration: underline;
+}
+
+.kw > a {
+  text-decoration: none !important;
+}
+
+.btn {
+  color: #f9f7f1 !important;
+  text-decoration: none !important;
+}
+
+a:link {
+  color: #2f2f2f;
+}
+
+a:visited {
+  color: #2f2f2f;
+}
+
+a:hover {
+  color: #2f2f2f;
+  text-decoration-color: #FF1654;
+}
+
+ul.nav li a, ul.nav li a:visited {
+  text-decoration: none !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+  text-decoration: none !important;
+}
+
+ul.nav li.active a {
+  text-decoration: none !important;
+}
+
+.btn:hover {
+  color: #FF1654;
+}
