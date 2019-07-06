@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Ubuntu+Mono&display=swap');
 
+* {
+  border-radius: 0 !important;
+}
+
 body {
   font-family: 'Playfair Display', serif;
   background-color: #f9f7f1;
@@ -101,6 +105,8 @@ a{
 }
 
 .btn {
+  text-transform: none;
+  font-size: 16px;
   color: #f9f7f1 !important;
   text-decoration: none !important;
 }
@@ -138,4 +144,24 @@ ul.nav li.active a {
   font-size: 25px;
   color: #247BA0;
   text-decoration: none !important;
+}
+
+.btn-primary{
+  background-color: #247BA0;
+}
+
+.btn-info{
+  background-color: #B2DBBF;
+}
+
+.btn-success{
+  background-color: #70C1B3;
+}
+
+.btn-warning{
+  background-color: #F3FFBD;
+}
+
+.btn-danger{
+  background-color: #FF1654;
 }
