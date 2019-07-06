@@ -76,7 +76,7 @@ code, pre {
 }
 
 .by{
-  color: #247BA0!important;
+  color: #f9f7f1!important;
 }
 
 .by > a {
@@ -132,4 +132,10 @@ ul.nav li.active a {
 
 .btn:hover {
   color: #FF1654;
+}
+
+.navbar-brand{
+  font-size: 25px;
+  color: #247BA0;
+  text-decoration: none !important;
 }
