@@ -12,8 +12,8 @@ create_pkgdown <- function() {
     invisible()
 
   x <- file.copy(
-    system.file("templates/_pkgdown.yml", package = "newsrdown"),
-    "index.Rmd"
+    system.file("templates/pkgdown.yml", package = "newsrdown"),
+    "_pkgdown.yml"
   )
 
   if(x){
