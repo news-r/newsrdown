@@ -1,8 +1,6 @@
 <!-- badges go here -->
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/JohnCoene)
 
-# pkg
-
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(
   warning = FALSE,
