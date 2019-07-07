@@ -15,6 +15,36 @@ code, pre {
   background-color: #f4f1e6;
 }
 
+pre {
+  box-shadow:
+    rgba(150, 147, 129, 0.1) 0 2px 3px 1px,
+    rgba(150, 147, 129, 0.1) 0 1px 3px 1px,
+    rgba(150, 147, 129, 0.2) 0 1px 1px -1px;
+}
+
+/* SELECTION */
+
+p::selection {
+  background: #B2DBBF;
+}
+p::-moz-selection {
+  background: #B2DBBF;
+}
+
+code::selection {
+  background: #B2DBBF;
+}
+code::-moz-selection {
+  background: #B2DBBF;
+}
+
+pre::selection {
+  background: #B2DBBF;
+}
+pre::-moz-selection {
+  background: #B2DBBF;
+}
+
 /* NAVBAR */
 .navbar-default {
   color: #f9f7f1;
