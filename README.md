@@ -22,9 +22,13 @@ template:
   package: newsrdown
 ```
 
-Create template of `index.Rmd`.
+Helper functions:
 
 ```r
+# create _pkgdown.yml
+newsrdown::create_pkgdown()
+
+# Create template of `index.Rmd`
 newsrdown::create_index_page()
 ```
 
