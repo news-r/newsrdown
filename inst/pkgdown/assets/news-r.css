@@ -24,24 +24,10 @@ pre {
 
 /* SELECTION */
 
-p::selection {
+::selection {
   background: #B2DBBF;
 }
-p::-moz-selection {
-  background: #B2DBBF;
-}
-
-code::selection {
-  background: #B2DBBF;
-}
-code::-moz-selection {
-  background: #B2DBBF;
-}
-
-pre::selection {
-  background: #B2DBBF;
-}
-pre::-moz-selection {
+::-moz-selection {
   background: #B2DBBF;
 }
 
@@ -192,4 +178,23 @@ ul.nav li.active a {
 
 .btn-danger{
   background-color: #FF1654;
+}
+
+/* SYNTHAX */
+
+.co{
+  color: #8c8c8c;
+}
+
+.st, .fl, .dv {
+  color: #247BA0
+}
+
+.kw, .op{
+  color: #2f2f2f;
+}
+
+.kw > a:hover{
+  text-decoration: underline !important;
+  text-decoration-color: #FF1654 !important;
 }
