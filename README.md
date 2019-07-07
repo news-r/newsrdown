@@ -28,3 +28,4 @@ Create template of `index.Rmd`.
 newsrdown::create_index_page()
 ```
 
+Feel free to use this package although it's probably not of use outside of [news-r](https://news-r.org) package, you will find and example [here](https://accunews.news-r.org/).
