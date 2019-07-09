@@ -110,8 +110,12 @@ pre {
 }
 
 /* LINKS */
-a{
+a {
   text-decoration: underline;
+}
+
+.sourceLine{
+  text-decoration: none !important;
 }
 
 .kw > a {
