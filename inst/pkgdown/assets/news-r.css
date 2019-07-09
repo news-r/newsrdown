@@ -114,7 +114,11 @@ a {
   text-decoration: underline;
 }
 
-.sourceLine{
+.sourceLine > a{
+  text-decoration: none !important;
+}
+
+code > a{
   text-decoration: none !important;
 }
 
@@ -139,6 +143,7 @@ a:visited {
 
 a:hover {
   color: #2f2f2f;
+  text-decoration: underline !important;
   text-decoration-color: #FF1654;
 }
 
