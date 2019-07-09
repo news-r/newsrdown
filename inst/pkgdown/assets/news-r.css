@@ -143,8 +143,7 @@ a:visited {
 
 a:hover {
   color: #2f2f2f;
-  text-decoration: underline !important;
-  text-decoration-color: #FF1654;
+  text-decoration-color: #FF1654 !important;
 }
 
 ul.nav li a, ul.nav li a:visited {
