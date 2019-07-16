@@ -21,5 +21,10 @@ create_pkgdown <- function() {
     usethis::use_build_ignore("_pkgdown.yml", escape = TRUE)
   } else
     cat(crayon::red(cli::symbol$cross), "failed to copy `_pkgdown.yml`\n")
+
+  cat(
+    crayon::yellow(cli::symbol$warning), "Remember to run `pkgdown::build_favicon()`\n"
+  )
+  
   invisible()
 }
