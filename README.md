@@ -10,7 +10,8 @@
 You can install `newsrdown` from Github with:
 
 ``` r
-install.packages("newsrdown")
+# install.packages("remotes")
+remotes::install_github("news-r/newsrdown")
 ```
 
 # Usage
