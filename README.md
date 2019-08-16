@@ -33,4 +33,7 @@ newsrdown::create_pkgdown()
 newsrdown::create_index_page()
 ```
 
-Feel free to use this package although it's probably not of use outside of [news-r](https://news-r.org) package, you will find and example [here](https://accunews.news-r.org/).
+Feel free to use this package although it's probably not of use outside of [news-r](https://news-r.org) package. It's being used for the following packages:
+
+- [gensimr](https://gensimr.news-r.org)
+- [word2vec.r](https://word2vec.news-r.org)
